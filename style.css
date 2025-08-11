@@ -1,0 +1,146 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo geral */
+body {
+  background: linear-gradient(135deg, #f7f1e3, #e6d8c3);
+  color: #5b3a29;
+  line-height: 1.5;
+  padding: 20px 10px;
+}
+
+/* Centralização dos conteúdos */
+center {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+}
+
+/* Header */
+header h1 {
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #7a4e2e;
+  text-shadow: 1px 1px 3px rgba(122, 78, 46, 0.5);
+  margin-bottom: 0.3rem;
+}
+
+header hr {
+  border: none;
+  height: 3px;
+  width: 60%;
+  background: #7a4e2e;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Imagem do perfil */
+img {
+  border-radius: 15px;
+  border: 3px solid #cbb294;
+  box-shadow: 3px 3px 15px rgba(122, 78, 46, 0.3);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 6px 20px rgba(122, 78, 46, 0.5);
+}
+
+/* Observação abaixo da imagem */
+p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #6d4a2e;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+}
+
+/* Caixas de texto (tables) */
+table {
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+table[bgcolor="#fff8f0"] {
+  background-color: #fff8f0;
+  padding: 20px;
+}
+
+table[bgcolor="#f5f5dc"] {
+  background-color: #f5f5dc;
+  padding: 15px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #6b4a30;
+}
+
+/* Títulos das seções */
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  color: #7a4e2e;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px #d9c8b0;
+}
+
+/* Botão */
+button {
+  background: #7a4e2e;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(122, 78, 46, 0.4);
+  transition: background 0.3s ease, transform 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: #a67249;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(166, 114, 73, 0.6);
+}
+
+/* Link dentro do botão */
+a {
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+}
+
+footer hr {
+  border: none;
+  height: 2px;
+  width: 50%;
+  background: #7a4e2e;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #7a7a7a;
+  font-style: italic;
+}
